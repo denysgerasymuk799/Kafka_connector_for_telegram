@@ -1,2 +1,7 @@
 .idea
 __pycache__
+*.session
+
+./collect_data/*.session
+./collect_data/new_type_dialogs/*
+./collect_data/new_type_dialogs_meta/*
