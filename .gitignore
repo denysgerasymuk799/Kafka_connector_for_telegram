@@ -1,9 +1,11 @@
 .idea
 __pycache__
 *.session
+config.ini
 
 ./collect_data/*.session
-./collect_data/new_type_dialogs/*.csv
+./collect_data/config_collect_data.json
 !./collect_data/new_type_dialogs/777000.csv
-./collect_data/new_type_dialogs_meta/*.json
 !./collect_data/new_type_dialogs_meta/777000.json
+./collect_data/new_type_dialogs/*.csv
+./collect_data/new_type_dialogs_meta/*.json
