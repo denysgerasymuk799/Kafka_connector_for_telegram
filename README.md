@@ -9,11 +9,12 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```
 
-2) Create a new cluster on https://bonsai.io
-3) Change cluster url in ./elasticsearch_consumer.py in __init__()
-4) Set a number of messages for producer more than 500 in ./start_producer.py
-5) Run simultaneously ./start_consumer.py and ./start_consumer.py
-6) To run faust use, where `kafka_streams` is a file name with your code
+2) Change your credits in config.ini and ./collect_data/config_collect_data.json. ip_address is an ip of your zookeeper.
+3) Create a new cluster on https://bonsai.io
+4) Change cluster url in ./elasticsearch_consumer.py in __init__()
+5) Set a number of messages for producer more than 500 in ./start_producer.py
+6) Run simultaneously ./start_consumer.py and ./start_consumer.py
+7) To run faust use, where `kafka_streams` is a file name with your code
 ```
 python -m faust -A kafka_streams worker -l info
 ```
