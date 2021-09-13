@@ -1,0 +1,28 @@
+{
+    "id": -388534901,
+    "name": "Діма, Ярік і Денис",
+    "type": "Group",
+    "users": [
+        {
+            "user_id": 511986933,
+            "first_name": "Denys",
+            "last_name": "Herasymuk",
+            "username": "denger88",
+            "phone": "380991448901"
+        },
+        {
+            "user_id": 708101596,
+            "first_name": "Ярік",
+            "last_name": "Морозевич",
+            "username": "yaryyk",
+            "phone": "380966738519"
+        },
+        {
+            "user_id": 138918380,
+            "first_name": "Діма",
+            "last_name": "Лопушанський",
+            "username": "dmytrolopushanskyy",
+            "phone": "380965378216"
+        }
+    ]
+}

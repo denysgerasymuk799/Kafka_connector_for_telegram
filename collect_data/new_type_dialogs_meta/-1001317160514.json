@@ -1,0 +1,28 @@
+{
+    "id": -1001317160514,
+    "name": "[укудл] АКС проект без ментора",
+    "type": "Group",
+    "users": [
+        {
+            "user_id": 511986933,
+            "first_name": "Denys",
+            "last_name": "Herasymuk",
+            "username": "denger88",
+            "phone": "380991448901"
+        },
+        {
+            "user_id": 138918380,
+            "first_name": "Діма",
+            "last_name": "Лопушанський",
+            "username": "dmytrolopushanskyy",
+            "phone": "380965378216"
+        },
+        {
+            "user_id": 244268154,
+            "first_name": "Діма",
+            "last_name": "Білусяк",
+            "username": "taxchris",
+            "phone": "380631730976"
+        }
+    ]
+}
