@@ -13,7 +13,7 @@ bin/kafka-server-start.sh config/server.properties
 3) Create a new cluster on https://bonsai.io
 4) Change cluster url in ./elasticsearch_consumer.py in __init__()
 5) Set a number of messages for producer more than 500 in ./start_producer.py
-6) Run simultaneously ./start_consumer.py and ./start_consumer.py
+6) Run simultaneously ./start_consumer.py and ./start_producer.py
 7) To run faust use this command, where `kafka_streams` is a file name with your code without file format .py
 ```
 python -m faust -A kafka_streams worker -l info
